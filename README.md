@@ -1,4 +1,4 @@
-scPipeline, a R package that uses Seurat, ReactomeGSA, fastMNN and scAnnot to enable the user to build an end-to-end single cell pipeline:
+scPipeline, a R package that uses Seurat, ReactomeGSA, fastMNN and singleR to enable the user to build an end-to-end single cell pipeline:
 
 Seurat: A comprehensive toolkit for single-cell RNA-seq data analysis, offering functionalities from data preprocessing to visualization.
 
