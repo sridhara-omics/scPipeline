@@ -4,7 +4,7 @@ Seurat: A comprehensive toolkit for single-cell RNA-seq data analysis, offering 
 
 batchelor: Provides methods for batch correction in single-cell RNA-seq data, including the fastMNN function.
 
-scAnnot: Facilitates single-cell RNA-seq data annotation, aiding in cell type identification.
+singleR: Facilitates single-cell RNA-seq data annotation, aiding in cell type identification.
 
 GSEA: Enables gene set enrichment analysis to identify pathways or gene sets that are significantly enriched in a dataset.
 ## Seurat wrapper to report expressed markers and associated Reactome pathways.
