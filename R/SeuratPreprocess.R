@@ -12,11 +12,12 @@
 #' @importFrom Seurat as.Seurat
 #' @importFrom batchelor fastMNN
 #' @param counts_data A matrix or data frame of count data.
+#' @param meta.data A data frame containing metadata to include in the Seurat object. Default is NULL.
 #' @param batch_column A vector or factor specifying batch assignments for each cell. Default is NULL.
 #' @param use_fastMNN Logical. Whether to apply batch correction using fastMNN. Default is FALSE.
 #' @param ... Additional arguments to be passed to Seurat::CreateSeuratObject.
 #' @return A Seurat object.
-SeuratPreprocess <- function(counts_data, batch_column = NULL, use_fastMNN = FALSE, ...) {
+SeuratPreprocess <- function(counts_data, meta.data = NULL, batch_column = NULL, use_fastMNN = FALSE, ...) {
   n_size <- dim(counts_data)[2]
   log_messages <- c() # Initialize log for errors and warnings
 
