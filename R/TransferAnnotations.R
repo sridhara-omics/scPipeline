@@ -6,11 +6,12 @@
 #' @param seurat_object Seurat object containing cluster and annotation information.
 #' @param annotation_col The name of the metadata column with annotations (character string).
 #' @param cluster_col The name of the metadata column with cluster information (character string).
+#' @param output_col The name of the output column to store cluster annotations (character string).
 #' @importFrom dplyr group_by summarise
 #' @importFrom Seurat DimPlot
-#' @return The Seurat object with an additional column `cluster_annotation` in its metadata.
+#' @return The Seurat object with an additional column in its metadata, specified by `output_col`.
 #' @export
-TransferAnnotations <- function(seurat_object, annotation_col, cluster_col) {
+TransferAnnotations <- function(seurat_object, annotation_col, cluster_col, output_col) {
   log_messages <- c() # Initialize log for errors and warnings
   
   # Helper function to log messages
@@ -50,7 +51,7 @@ TransferAnnotations <- function(seurat_object, annotation_col, cluster_col) {
   
   # Step 3: Map annotations to all cells
   log_step("Mapping annotations to cells", {
-    seurat_object@meta.data$cluster_annotation <- majority_annotations$majority_annotation[
+    seurat_object@meta.data[[output_col]] <- majority_annotations$majority_annotation[
       match(seurat_object@meta.data[[cluster_col]], majority_annotations[[cluster_col]])
     ]
   })
@@ -64,3 +65,12 @@ TransferAnnotations <- function(seurat_object, annotation_col, cluster_col) {
   # Return the updated Seurat object
   return(seurat_object)
 }
+
+
+
+# seurat_object <- TransferAnnotations(
+#   seurat_object = seurat_object,
+#   annotation_col = "cell_type",
+#   cluster_col = "seurat_clusters",
+#   output_col = "custom_cluster_annotation"
+# )
