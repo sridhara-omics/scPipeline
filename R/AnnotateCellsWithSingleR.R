@@ -5,7 +5,7 @@
 #'
 #' @export
 #' @importFrom SingleR SingleR
-#' @importFrom Celldex HumanPrimaryCellAtlasData
+#' @importFrom celldex HumanPrimaryCellAtlasData
 #' @importFrom SummarizedExperiment SummarizedExperiment
 #' @importFrom Seurat as.SingleCellExperiment AddMetaData
 #' @param seurat_object A Seurat object to be annotated.
@@ -16,7 +16,7 @@
 AnnotateCellsWithSingleR <- function(seurat_object, reference_data = NULL, assay = "RNA") {
   # Step 1: Load default reference data from Celldex if not provided
   if (is.null(reference_data)) {
-    reference_data <- Celldex::HumanPrimaryCellAtlasData()
+    reference_data <- celldex::HumanPrimaryCellAtlasData()
   }
 
   # Step 2: Convert Seurat object to SingleCellExperiment
