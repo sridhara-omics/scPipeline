@@ -5,3 +5,4 @@
 data/MCA_10K_processed.rda
 data/MCA_merged_mat.rds
 data/MCA_All-batch-removed-assignments.csv
+data/*
