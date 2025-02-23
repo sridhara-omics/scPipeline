@@ -10,8 +10,10 @@ SeuratMarkers(lowdim_seurat_object)
 \item{lowdim_seurat_object}{Seurat object with cluster information}
 }
 \value{
-A list
+A list containing two marker lists:
+- Full markers list
+- Thresholded markers list with \code{min.pct = 0.1}
 }
 \description{
-A thresholded markers list for better calculation of DE genes
+This function calculates differentially expressed genes using Seurat::FindAllMarkers.
 }

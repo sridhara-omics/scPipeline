@@ -2,7 +2,7 @@
 % Please edit documentation in R/ReactomeGSAAnalysis.R
 \name{ReactomeData}
 \alias{ReactomeData}
-\title{Title}
+\title{Reactome Data Analysis for Seurat Object}
 \usage{
 ReactomeData(lowdim_seurat_object)
 }
@@ -10,8 +10,12 @@ ReactomeData(lowdim_seurat_object)
 \item{lowdim_seurat_object}{Seurat object that has clusters information}
 }
 \value{
-list
+A list containing:
+- GSVA result (\code{gsva_result})
+- Pathway expression data (\code{pathway_expression})
+- Max difference between pathway expression values (\code{max_difference})
 }
 \description{
-Title
+This function performs pathway analysis using ReactomeGSA on a Seurat object
+with cluster information.
 }

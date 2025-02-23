@@ -2,12 +2,24 @@
 % Please edit documentation in R/SeuratPreprocess.R
 \name{SeuratPreprocess}
 \alias{SeuratPreprocess}
-\title{Create a Seurat object from count data}
+\title{Preprocess count data and create a Seurat object}
 \usage{
-SeuratPreprocess(counts_data, ...)
+SeuratPreprocess(
+  counts_data,
+  meta.data = NULL,
+  batch_column = NULL,
+  use_fastMNN = FALSE,
+  ...
+)
 }
 \arguments{
 \item{counts_data}{A matrix or data frame of count data.}
+
+\item{meta.data}{A data frame containing metadata to include in the Seurat object. Default is NULL.}
+
+\item{batch_column}{A vector or factor specifying batch assignments for each cell. Default is NULL.}
+
+\item{use_fastMNN}{Logical. Whether to apply batch correction using fastMNN. Default is FALSE.}
 
 \item{...}{Additional arguments to be passed to Seurat::CreateSeuratObject.}
 }
@@ -15,5 +27,6 @@ SeuratPreprocess(counts_data, ...)
 A Seurat object.
 }
 \description{
-This function creates a Seurat object from count data using Seurat::CreateSeuratObject.
+This function preprocesses count data, optionally applying batch correction using batchelor::fastMNN,
+and creates a Seurat object.
 }

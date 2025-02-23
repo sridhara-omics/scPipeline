@@ -9,7 +9,7 @@ SeuratLowDim(scaled_seurat_object, ...)
 \arguments{
 \item{scaled_seurat_object}{A scaled Seurat object.}
 
-\item{...}{Additional arguments to be passed to convert to low dimensional data frame.}
+\item{...}{Additional arguments to be passed for downstream analyses.}
 }
 \value{
 A Seurat object.
