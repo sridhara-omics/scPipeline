@@ -22,6 +22,11 @@ AnnotateCellsWithSingleR <- function(seurat_object, reference_data = NULL, assay
   # Step 2: Convert Seurat object to SingleCellExperiment
   sce <- Seurat::as.SingleCellExperiment(seurat_object, assay = assay)
 
+  # Ensure it contains log-normalized counts
+  if (!"logcounts" %in% names(SummarizedExperiment::assays(sce))) {
+    SummarizedExperiment::assay(sce, "logcounts") <- log1p(SummarizedExperiment::assay(sce, "counts"))
+  }
+
   # Step 3: Run SingleR to annotate cells
   singleR_results <- SingleR::SingleR(
     test = SummarizedExperiment::SummarizedExperiment(list(counts = sce)),

@@ -9,6 +9,8 @@
 #' @param output_col The name of the output column to store cluster annotations (character string).
 #' @importFrom dplyr group_by summarise
 #' @importFrom Seurat DimPlot
+#' @importFrom magrittr %>%
+#' @importFrom rlang sym
 #' @return The Seurat object with an additional column in its metadata, specified by `output_col`.
 #' @export
 TransferAnnotations <- function(seurat_object, annotation_col, cluster_col, output_col) {

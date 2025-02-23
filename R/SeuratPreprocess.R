@@ -10,6 +10,7 @@
 #' @importFrom Seurat PercentageFeatureSet
 #' @importFrom Seurat ScaleData
 #' @importFrom Seurat as.Seurat
+#' @importFrom Seurat SplitObject
 #' @importFrom batchelor fastMNN
 #' @param counts_data A matrix or data frame of count data.
 #' @param meta.data A data frame containing metadata to include in the Seurat object. Default is NULL.
