@@ -25,7 +25,7 @@ In addition, the module can also be used for batch correction, cell-type annotat
 10X PBMC data can be found here: https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
 
 ```{r Read10X data}
-counts_data <- Read10X(data.dir = "../../scPipelineMISCdata/data/pbmc3k/filtered_gene_bc_matrices/hg19")
+counts_data <- Read10X(data.dir = "../data/pbmc3k/filtered_gene_bc_matrices/hg19")
 ```
 
 ## Entire Seurat analysis from counts data to cell clustering using 2 functions
