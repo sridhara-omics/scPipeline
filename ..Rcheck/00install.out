@@ -1,6 +1,7 @@
 * installing *source* package 'scPipeline' ...
 ** using staged installation
 ** R
+** data
 ** byte-compile and prepare package for lazy loading
 ** help
 *** installing help indices
