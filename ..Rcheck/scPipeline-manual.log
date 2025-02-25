@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  23 FEB 2025 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  24 FEB 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/vishs/AppData/Local/Temp/RtmpyQj6mT/Rd2pdf20b82ee2f9c/Rd2.tex
-(C:/Users/vishs/AppData/Local/Temp/RtmpyQj6mT/Rd2pdf20b82ee2f9c/Rd2.tex
+**C:/Users/vishs/AppData/Local/Temp/RtmpKaU9d7/Rd2pdf3c0444d97bc/Rd2.tex
+(C:/Users/vishs/AppData/Local/Temp/RtmpKaU9d7/Rd2pdf3c0444d97bc/Rd2.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 
@@ -402,14 +402,14 @@ Package hyperref Info: Link coloring ON on input line 8.
 \@outlinefile=\write4
 \openout4 = `Rd2.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 21
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 22
 .
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 22.
 
 (Rd2.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
@@ -439,7 +439,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/vishs/App
 Data/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
 [3]
-Overfull \hbox (9.84673pt too wide) in paragraph at lines 163--165
+Overfull \hbox (9.84673pt too wide) in paragraph at lines 164--166
 []\T1/ptm/m/n/10 This func-tion pre-pro-cesses count data, op-tion-ally ap-ply-
 ing batch cor-rec-tion us-ing batch-e-lor::fastMNN,
  []
@@ -469,7 +469,7 @@ urw/times/utmb8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (6 pages, 98905 bytes).
+Output written on Rd2.pdf (6 pages, 98836 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)

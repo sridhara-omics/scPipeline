@@ -1,6 +1,7 @@
 Package: scPipeline
-Title: Seurat Wrapper For End-to-End Single Cell Analysis
-Version: 0.0.0.9000
+Title: Seurat And Related R Packages For End-to-End Single Cell
+        Analysis
+Version: 0.1.0.0
 Author: Viswanadham Sridhara
 Maintainer: Viswanadham Sridhara <Sridhara.Omics@gmail.com>
 Authors@R: 
@@ -12,4 +13,4 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Built: R 4.4.2; ; 2025-02-23 22:57:09 UTC; windows
+Built: R 4.4.2; ; 2025-02-25 00:20:15 UTC; windows

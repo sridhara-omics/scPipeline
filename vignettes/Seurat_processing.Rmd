@@ -1,8 +1,12 @@
 ---
 title: "Seurat_processing"
-author: "VS"
+author: "Viswanadham Sridhara"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to myPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 date: "2025-02-24"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
