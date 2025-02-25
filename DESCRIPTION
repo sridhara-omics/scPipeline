@@ -1,6 +1,6 @@
 Package: scPipeline
-Title: Seurat Wrapper For End-to-End Single Cell Analysis
-Version: 0.0.0.9000
+Title: Seurat And Related R Packages For End-to-End Single Cell Analysis
+Version: 0.1.0.0
 Author: Viswanadham Sridhara
 Maintainer: Viswanadham Sridhara <Sridhara.Omics@gmail.com>
 Authors@R: 

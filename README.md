@@ -15,10 +15,16 @@ This repository is a simple R package that has 4 main functionalities:
 3. SeuratMarkers function identifies the entire list of markers, along with significant markers (based on minimum percent of cells) and  
 4. ReactomeData function to identify the Reactome GSA pathways on the expressed genes in the clusters.  
 
+Additonal advanced functionalities of transferring cell-annotations, and identifying the annotations using SingleR package are also available.
+5. ConvertGeneIdentifiers to convert different accessions to gene symbols or vice versa.
+6. AnnotateCellsWithSingleR uses celldex reference annotations to transfer to the current dataset.
+7. Transfer Annotations uses the labelled datasets from one dataset and transfers to the other.
+
 ```{r cars}
 library(Seurat)
 library(ReactomeGSA)
-library(scReport)
+library(tidyverse)
+library(scPipeline)
 ```
 
 ```{r}
