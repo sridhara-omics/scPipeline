@@ -16,7 +16,8 @@ Imports:
   SummarizedExperiment,
   biomaRt,
   magrittr,
-  rlang
+  rlang,
+  tidyverse
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
