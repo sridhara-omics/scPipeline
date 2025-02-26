@@ -12,7 +12,7 @@ date: "2025-02-24"
 ```{r setup, include=FALSE}
 library(scPipeline)
 library(Seurat)
-library(tidyverse)
+library(magrittr)
 library(ReactomeGSA)
 ```
 
@@ -25,7 +25,7 @@ In addition, the module can also be used for batch correction, cell-type annotat
 10X PBMC data can be found here: https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
 
 ```{r Read10X data}
-counts_data <- Read10X(data.dir = "../data/pbmc3k/filtered_gene_bc_matrices/hg19")
+counts_data <- Read10X(data.dir = "../inst/extdata")
 ```
 
 ## Entire Seurat analysis from counts data to cell clustering using 2 functions
@@ -53,19 +53,21 @@ FeaturePlot(so, features = c("MS4A1", "GNLY", "CD3E", "CD14", "FCER1A", "FCGR3A"
 ## Identify differentially expressed genes (markers list using Seurat)
 The output seurat_markers has both the markers list, as well as a subset of the markers list, that are highly confident, both of which are stored in list.
 ```{r Marker analysis, echo=FALSE}
-seurat_markers <- SeuratMarkers(so)
+#Compute intense step
+#seurat_markers <- SeuratMarkers(so)
 ```
 
 Plotting markers by clusters with a threshold of log2FC greater than 1, and using the top 10 genes for each cluster.
 
 ```{r Heatmap of markers across clusters, echo=FALSE}
-pbmc.markers <- seurat_markers[[1]]
-pbmc.markers %>%
-    group_by(cluster) %>%
-    dplyr::filter(avg_log2FC > 1) %>%
-    slice_head(n = 10) %>%
-    ungroup() -> top10
-DoHeatmap(so, features = top10$gene) + NoLegend()
+#Uncomment if you run the above chunk of finding markers
+# pbmc.markers <- seurat_markers[[1]]
+# pbmc.markers %>%
+#     group_by(cluster) %>%
+#     dplyr::filter(avg_log2FC > 1) %>%
+#     slice_head(n = 10) %>%
+#     ungroup() -> top10
+# DoHeatmap(so, features = top10$gene) + NoLegend()
 ```
 
 ## Next, Identify Reactome Pathways using DE gene list (using ReactomeGSA package)

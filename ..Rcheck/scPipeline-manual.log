@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  24 FEB 2025 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  25 FEB 2025 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/vishs/AppData/Local/Temp/RtmpKaU9d7/Rd2pdf3c0444d97bc/Rd2.tex
-(C:/Users/vishs/AppData/Local/Temp/RtmpKaU9d7/Rd2pdf3c0444d97bc/Rd2.tex
+**C:/Users/vishs/AppData/Local/Temp/RtmpW6RC6C/Rd2pdf7e833d665c9/Rd2.tex
+(C:/Users/vishs/AppData/Local/Temp/RtmpW6RC6C/Rd2pdf7e833d665c9/Rd2.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 
@@ -402,44 +402,43 @@ Package hyperref Info: Link coloring ON on input line 8.
 \@outlinefile=\write4
 \openout4 = `Rd2.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 22
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 21
 .
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
 
-(Rd2.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
-
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 21
+.
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+)
+(Rd2.toc)
 \tf@toc=\write5
 \openout5 = `Rd2.toc'.
 
-
-[1
+ [1
 
 
 {C:/Users/vishs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vish
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/vishs/App
-Data/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
-[3]
-Overfull \hbox (9.84673pt too wide) in paragraph at lines 164--166
+Data/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2] [3]
+Overfull \hbox (9.84673pt too wide) in paragraph at lines 166--168
 []\T1/ptm/m/n/10 This func-tion pre-pro-cesses count data, op-tion-ally ap-ply-
 ing batch cor-rec-tion us-ing batch-e-lor::fastMNN,
  []
@@ -458,7 +457,7 @@ Package rerunfilecheck Info: File `Rd2.out' has not changed.
 Here is how much of TeX's memory you used:
  10560 strings out of 474486
  161334 string characters out of 5743755
- 1939542 words of memory out of 5000000
+ 1938542 words of memory out of 5000000
  32615 multiletter control sequences out of 15000+600000
  589670 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -469,9 +468,9 @@ urw/times/utmb8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (6 pages, 98836 bytes).
+Output written on Rd2.pdf (6 pages, 101397 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

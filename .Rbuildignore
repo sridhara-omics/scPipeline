@@ -1,5 +1,6 @@
 ^.*\.Rproj$           # Ignore RStudio project files
 ^\.Rproj\.user$       # Ignore RStudio user settings
+^scPipeline.Rproj
 ^\.git$               # Ignore Git version control folder
 ^\.gitignore$         # Ignore Git ignore file
 ^_pkgdown\.yml$       # Ignore pkgdown config
@@ -9,4 +10,4 @@
 ^\.DS_Store$          # Ignore macOS system files
 ^vignettes/.*\.Rmd$   # Ignore vignette source files (if not needed)
 ^tests/testthat$      # Ignore testthat folder (if not needed)
-
+^\.\.Rcheck$
