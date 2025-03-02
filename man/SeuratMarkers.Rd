@@ -17,3 +17,15 @@ A list containing two marker lists:
 \description{
 This function calculates differentially expressed genes using Seurat::FindAllMarkers.
 }
+\examples{
+\dontrun{
+# Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+
+# Create Seurat object without batch correction
+seurat_obj <- SeuratPreprocess(counts)
+seurat_obj <- SeuratLowDim(counts)
+# Create Markers list
+seurat_markers <- SeuratMarkers(seurat_obj)
+}
+}

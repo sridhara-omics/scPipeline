@@ -30,3 +30,12 @@ A Seurat object.
 This function preprocesses count data, optionally applying batch correction using batchelor::fastMNN,
 and creates a Seurat object.
 }
+\examples{
+\dontrun{
+# Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+
+# Create Seurat object without batch correction
+seurat_obj <- SeuratPreprocess(counts)
+}
+}

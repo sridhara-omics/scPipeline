@@ -18,6 +18,14 @@
 #' @param use_fastMNN Logical. Whether to apply batch correction using fastMNN. Default is FALSE.
 #' @param ... Additional arguments to be passed to Seurat::CreateSeuratObject.
 #' @return A Seurat object.
+#' @examples
+#' \dontrun{
+#' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+#' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+#'
+#' # Create Seurat object without batch correction
+#' seurat_obj <- SeuratPreprocess(counts)
+#' }
 SeuratPreprocess <- function(counts_data, meta.data = NULL, batch_column = NULL, use_fastMNN = FALSE, ...) {
   n_size <- dim(counts_data)[2]
 

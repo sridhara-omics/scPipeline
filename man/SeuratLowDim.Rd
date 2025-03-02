@@ -17,3 +17,13 @@ A Seurat object.
 \description{
 This function converts the transformed data to low-dimensional data for downstream analysis.
 }
+\examples{
+\dontrun{
+# Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+
+# Create Seurat object without batch correction
+seurat_obj <- SeuratPreprocess(counts)
+seurat_obj <- SeuratLowDim(counts)
+}
+}

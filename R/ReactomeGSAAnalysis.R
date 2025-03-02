@@ -10,6 +10,17 @@
 #'         - Max difference between pathway expression values (`max_difference`)
 #' @export
 #' @importFrom ReactomeGSA analyse_sc_clusters pathways
+#' @examples
+#' \dontrun{
+#' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+#' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+#'
+#' # Create Seurat object without batch correction
+#' seurat_obj <- SeuratPreprocess(counts)
+#' seurat_obj <- SeuratLowDim(counts)
+#' # Reactome Analysis
+#' seurat_reactome <- ReactomeData(seurat_obj)
+#' }
 ReactomeData <- function(lowdim_seurat_object) {
   # Step 1: Perform GSVA pathway analysis
   gsva_result <- ReactomeGSA::analyse_sc_clusters(lowdim_seurat_object)

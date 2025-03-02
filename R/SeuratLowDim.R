@@ -11,6 +11,15 @@
 #' @param scaled_seurat_object A scaled Seurat object.
 #' @param ... Additional arguments to be passed for downstream analyses.
 #' @return A Seurat object.
+#' @examples
+#' \dontrun{
+#' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+#' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
+#'
+#' # Create Seurat object without batch correction
+#' seurat_obj <- SeuratPreprocess(counts)
+#' seurat_obj <- SeuratLowDim(counts)
+#' }
 SeuratLowDim <- function(scaled_seurat_object, ...) {
   # Compute number of PCs and dimensions
   n_size <- dim(scaled_seurat_object@meta.data)[1]
