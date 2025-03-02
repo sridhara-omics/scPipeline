@@ -6,7 +6,7 @@ Author: Viswanadham Sridhara [aut, cre] (<https://orcid.org/0000-0003-0688-6140>
 Maintainer: Viswanadham Sridhara <Sridhara.Omics@gmail.com>
 Authors@R: 
     person("Viswanadham", "Sridhara", , "Sridhara.Omics@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-0688-6140"))
-Description: Reports markers list, differentially expressed genes, associated pathways, cell-type annotations, does batch correction and other related single cell analyses all wrapped within Seurat.
+Description: Reports markers list, differentially expressed genes, associated pathways, cell-type annotations, does batch correction and other related single cell analyses all wrapped within 'Seurat'.
 Imports: Seurat, batchelor, dplyr, ReactomeGSA, celldex, SingleR,
         SummarizedExperiment, biomaRt, magrittr, rlang
 License: MIT + file LICENSE
@@ -15,4 +15,4 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr
 Suggests: knitr, rmarkdown
-Built: R 4.4.2; ; 2025-02-26 04:21:24 UTC; windows
+Built: R 4.4.2; ; 2025-03-02 20:29:23 UTC; windows
