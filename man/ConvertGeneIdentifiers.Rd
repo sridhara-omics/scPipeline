@@ -34,6 +34,7 @@ counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 seurat_obj <- SeuratPreprocess(counts)
 seurat_obj <- SeuratLowDim(counts)
 # Convert RefSeq IDs to gene symbols
-seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", to_id_type = "symbol")
+seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", \
+                                               to_id_type = "symbol")
 }
 }

@@ -20,7 +20,8 @@
 #' seurat_obj <- SeuratPreprocess(counts)
 #' seurat_obj <- SeuratLowDim(counts)
 #' # Convert RefSeq IDs to gene symbols
-#' seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", to_id_type = "symbol")
+#' seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", \
+#'                                                to_id_type = "symbol")
 #' }
 
 ConvertGeneIdentifiers <- function(seurat_object, id_type = "refseq", to_id_type = "symbol") {

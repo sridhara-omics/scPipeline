@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  2 MAR 2025 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.23)  2 MAR 2025 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/vishs/AppData/Local/Temp/Rtmp8qSXhN/Rd2pdf3e146303370d/Rd2.tex
-(C:/Users/vishs/AppData/Local/Temp/Rtmp8qSXhN/Rd2pdf3e146303370d/Rd2.tex
+**C:/Users/vishs/AppData/Local/Temp/RtmpUvo9aS/Rd2pdf4c9474c26ebb/Rd2.tex
+(C:/Users/vishs/AppData/Local/Temp/RtmpUvo9aS/Rd2pdf4c9474c26ebb/Rd2.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 
@@ -402,6 +402,12 @@ Package hyperref Info: Link coloring ON on input line 8.
 \@outlinefile=\write4
 \openout4 = `Rd2.out'.
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+9.
+
+(C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 21
 .
 
@@ -427,12 +433,6 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 21
 
 (C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-3.
-
-(C:\Users\vishs\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 (Rd2.toc)
 \tf@toc=\write5
@@ -476,14 +476,14 @@ Here is how much of TeX's memory you used:
  32643 multiletter control sequences out of 15000+600000
  591936 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,5n,95p,361b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,95p,317b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/
 Inconsolata-zi4r.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmb8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/vishs/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (7 pages, 104688 bytes).
+Output written on Rd2.pdf (7 pages, 104699 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)

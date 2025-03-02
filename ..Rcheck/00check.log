@@ -8,9 +8,9 @@
 * using session charset: UTF-8
 * using option '--as-cran'
 * checking for file './DESCRIPTION' ... OK
-* this is package 'scPipeline' version '0.1.0.0'
+* this is package 'scPipeline' version '0.1.0.1'
 * package encoding: UTF-8
-* checking CRAN incoming feasibility ... [11s] NOTE
+* checking CRAN incoming feasibility ... [22s] NOTE
 Maintainer: 'Viswanadham Sridhara <Sridhara.Omics@gmail.com>'
 
 New submission
@@ -28,6 +28,10 @@ Found the following hidden files and directories:
   .Rhistory
   .gitignore
   ..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ..Rcheck/vign_test/scPipeline/.git
   .Rproj.user
   .git
@@ -36,20 +40,79 @@ structure' in the 'Writing R Extensions' manual.
 
 CRAN-pack does not know about
   ..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
+  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ..Rcheck/vign_test/scPipeline/.git
   .git
 * checking for portable file names ... NOTE
 Found the following non-portable file paths:
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/90f77fbaf73a6a07d0d9228dcaa9f687ac63e2
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/d0cd9e6a2d3a6a79267e8f484f607a55229259
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/0f/536a50cb42740315c23dfb3d1b4ae873ebc3d9
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14/6f8f08a5792a56f23851abbb6ce597e2067344
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1f/e1cc4ca990a7052258f06dd63005352504dd2b
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24/c5a06cff3dfcf99df8329f29d0dbc479d21b66
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/30/eb4e1136f7e02a1bc551ba696a836cbae44846
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/271ff4957df6b37ad7c54c9f9ee707d3844052
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/34/40a4df00abe070c0a1411cace20f0377b8bb29
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3b/1f92baa4e6bf3b0a8557f698c30f5f6b8857bb
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3d/c2b6a32d43ca933894e919d60eaf4548eb2a33
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/43/c688dd79a491dc566be4e02c9ae9b9a01d49a6
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/48/0d0094becb5bbfe550ffe999672027d8b97289
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a/7a7cf3f89f41d3af2b3a6ccaca240afe20b614
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b/9f2e2802104d7a3f965b3817107ecee8876f61
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4d/227f3f5755d87f06786004f24f02618b351330
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/50/f30bbaf1bda0fdd968a616c6411faa92e5bf26
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5a/add212824d34b13734f7a08450c0228b101cc0
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/cdc1416e4004315d2e67a1bfd0bd6bd76def51
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/e6c519727e0062be363338e9a6db5b0aaafb5d
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a/60b73aabfec52b0349c8b0598dc821350d2ea2
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7d/9465ca6595e19bb064c24518093bf9366f1ee8
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/80/4209a72822fd908507b6493dadcb5dfeb9958f
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/85/bc6f6da5a0aa43db8047bb66a2d3d8c27dbbf4
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/88/f824f4bb86f5440c34a5b78dc37f9b3f50dc17
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a/5a0a9cf4b1b653ae64e2ec31969b6e35ce19d0
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8c/47edf38385780977def6da114e0ca67604330d
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8f/79a63e25fc6418b491e323a15a2a60790b8792
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/91/d217ab97a0cc2ce2a7163c0e9e32aa2f69e15d
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/64bea2db6e50c11891cae4191467c76134b470
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/7d99ebc40523e977d5f4d2be91728bb2d4ce94
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f/472d169937f5740bb33f6da4b59a96423ea1be
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a3/4b98e4799f7bb72bc3e49d76264dd3dc32c6d9
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a7/69ded620e943649b4cdb2b4b6818779dc8c0d9
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad/0ec59b5c52b2af342e7b5f4d6b08e02f57c6c8
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/2bfab92ba0051eef20b2298f4dd063bd6cd929
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/ec129c4513cde30d824ac9776a6360382e7137
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/f5dea5c0b611eb9a6e0d26b6a8482baf8fe915
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c6/c8ea891c9e687bb3d8dbdf01eee6fe9d93e2b9
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/d23a5164d5afebf87ca0b6ef7906b675c4d50d
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/e315ed7e5bc22a5e55d910dd0fc9bdc43bb6c9
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dd/303e3b1764daee999045b865bbdaa9c57d9ea6
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df/756732f6843464d77639851c2574da29df5960
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e1/18540ebd91c3c582439e3bb90b58fce3111806
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/3d34fb2bec9aa10841ae8b514ff83790d82ee6
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef/d5dc6e282383b5c8b71130716db07c3b8a4e48
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f1/62818361c47bc4f70c48fa8cb3d9f479be522f
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/96b4ba0fab59818fe4fbea23530d5f07ef293c
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
+  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack
 
 Tarballs are only required to store paths of up to 100 bytes and cannot
 store those of more than 256 bytes, with restrictions including to 100
 bytes for the final component.
 See section 'Package structure' in the 'Writing R Extensions' manual.
 * checking serialization versions ... OK
-* checking whether package 'scPipeline' can be installed ... [38s] OK
+* checking whether package 'scPipeline' can be installed ... [68s] OK
 * checking installed package size ... NOTE
   installed size is 16.8Mb
   sub-directories of 1Mb or more:
@@ -62,30 +125,35 @@ Checking should be performed on sources prepared by 'R CMD build'.
 * checking top-level files ... NOTE
 Non-standard files/directories found at top level:
   'scPipeline.Rproj' 'scPipeline_0.1.0.0.tar.gz'
+  'scPipeline_0.1.0.1.tar.gz'
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... WARNING
-Found the following directory with the name of a check directory:
+Found the following directories with names of check directories:
   ./..Rcheck
+  ./..Rcheck/vign_test/scPipeline/..Rcheck
+  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
 Most likely, these were included erroneously.
 Found the following directories with names of version control directories:
+  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
+  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ./..Rcheck/vign_test/scPipeline/.git
   ./.git
 These should not be in a package tarball.
 * checking code files for non-ASCII characters ... OK
 * checking R files for syntax errors ... OK
-* checking whether the package can be loaded ... [11s] OK
-* checking whether the package can be loaded with stated dependencies ... [11s] OK
-* checking whether the package can be unloaded cleanly ... [11s] OK
-* checking whether the namespace can be loaded with stated dependencies ... [10s] OK
-* checking whether the namespace can be unloaded cleanly ... [18s] OK
-* checking loading without being on the library search path ... [24s] OK
+* checking whether the package can be loaded ... [20s] OK
+* checking whether the package can be loaded with stated dependencies ... [16s] OK
+* checking whether the package can be unloaded cleanly ... [16s] OK
+* checking whether the namespace can be loaded with stated dependencies ... [16s] OK
+* checking whether the namespace can be unloaded cleanly ... [17s] OK
+* checking loading without being on the library search path ... [20s] OK
 * checking use of S3 registration ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... [70s] OK
+* checking R code for possible problems ... [65s] OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... NOTE
@@ -103,14 +171,14 @@ These lines will be truncated in the PDF manual.
 * checking files in 'vignettes' ... WARNING
 Files in the 'vignettes' directory but no files in 'inst/doc':
   'Seurat_processing.Rmd' 'Seurat_processing.html'
-* checking examples ... [24s] OK
+* checking examples ... [30s] OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes ... WARNING
 Directory 'inst/doc' does not exist.
 Package vignette without corresponding single PDF/HTML:
   'Seurat_processing.Rmd'
 * checking re-building of vignette outputs ... OK
-* checking PDF version of manual ... [11s] OK
+* checking PDF version of manual ... [10s] OK
 * checking HTML version of manual ... OK
 * checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK

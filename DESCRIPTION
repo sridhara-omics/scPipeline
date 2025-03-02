@@ -1,6 +1,6 @@
 Package: scPipeline
 Title: 'Seurat' and Related R Packages for End-to-End Single Cell Analysis
-Version: 0.1.0.0
+Version: 0.1.0.1
 Author: Viswanadham Sridhara [aut, cre] (<https://orcid.org/0000-0003-0688-6140>)
 Maintainer: Viswanadham Sridhara <Sridhara.Omics@gmail.com>
 Authors@R: 
