@@ -25,7 +25,7 @@ In addition, the module can also be used for batch correction, cell-type annotat
 10X PBMC data can be found here: https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
 
 ```{r Read10X data}
-counts_data <- Read10X(data.dir = "../inst/extdata")
+counts_data <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 ```
 
 ## Entire Seurat analysis from counts data to cell clustering using 2 functions
@@ -80,11 +80,11 @@ seurat_reactome <- ReactomeData(so)
 
 Expression of different pathways e.g.,
 ```{r Pathways expression}
-  head(seurat_reactome[[2]], n = 3)
+head(seurat_reactome[[2]], n = 3)
 ```
   
 Min, max and differential Expression of different pathways e.g.,
 ```{r Pathways min max}
-  head(seurat_reactome[[3]], n = 3)
+head(seurat_reactome[[3]], n = 3)
 ```
 
