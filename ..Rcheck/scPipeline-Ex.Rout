@@ -58,7 +58,8 @@ Type 'q()' to quit R.
 > ##D seurat_obj <- SeuratPreprocess(counts)
 > ##D seurat_obj <- SeuratLowDim(counts)
 > ##D # Convert RefSeq IDs to gene symbols
-> ##D seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", to_id_type = "symbol")
+> ##D seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", \
+> ##D                                                to_id_type = "symbol")
 > ## End(Not run)
 > 
 > 
@@ -177,7 +178,7 @@ Type 'q()' to quit R.
 > cleanEx()
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  22.25 3.25 29.86 NA NA 
+Time elapsed:  20.92 2.32 23.77 NA NA 
 > grDevices::dev.off()
 null device 
           1 

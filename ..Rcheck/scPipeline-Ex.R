@@ -39,7 +39,8 @@ base::assign(".ptime", proc.time(), pos = "CheckExEnv")
 ##D seurat_obj <- SeuratPreprocess(counts)
 ##D seurat_obj <- SeuratLowDim(counts)
 ##D # Convert RefSeq IDs to gene symbols
-##D seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", to_id_type = "symbol")
+##D seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", \
+##D                                                to_id_type = "symbol")
 ## End(Not run)
 
 
