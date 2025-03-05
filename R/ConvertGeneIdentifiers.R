@@ -14,6 +14,7 @@
 #' @examples
 #' \donttest{
 #' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
+#' library(Seurat)
 #' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 #'
 #' # Create Seurat object without batch correction

@@ -12,6 +12,7 @@
 #' @importFrom ReactomeGSA analyse_sc_clusters pathways
 #' @examples
 #' \donttest{
+#' #' library(Seurat)
 #' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
 #' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 #'
