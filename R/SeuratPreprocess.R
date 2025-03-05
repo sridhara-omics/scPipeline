@@ -19,7 +19,7 @@
 #' @param ... Additional arguments to be passed to Seurat::CreateSeuratObject.
 #' @return A Seurat object.
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
 #' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 #'

@@ -26,13 +26,13 @@ and converts those identifiers to gene symbols (or Ensembl Gene IDs) using the b
 The function can handle various types of gene identifiers and returns a Seurat object with updated row names.
 }
 \examples{
-\dontrun{
+\donttest{
 # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
 counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 
 # Create Seurat object without batch correction
 seurat_obj <- SeuratPreprocess(counts)
-seurat_obj <- SeuratLowDim(counts)
+seurat_obj <- SeuratLowDim(seurat_obj)
 # Convert RefSeq IDs to gene symbols
 seurat_obj_converted <- ConvertGeneIdentifiers(seurat_obj, id_type = "refseq", \
                                                to_id_type = "symbol")

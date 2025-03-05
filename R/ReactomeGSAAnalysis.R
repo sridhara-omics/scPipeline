@@ -11,13 +11,13 @@
 #' @export
 #' @importFrom ReactomeGSA analyse_sc_clusters pathways
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
 #' counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 #'
 #' # Create Seurat object without batch correction
 #' seurat_obj <- SeuratPreprocess(counts)
-#' seurat_obj <- SeuratLowDim(counts)
+#' seurat_obj <- SeuratLowDim(seurat_obj)
 #' # Reactome Analysis
 #' seurat_reactome <- ReactomeData(seurat_obj)
 #' }
