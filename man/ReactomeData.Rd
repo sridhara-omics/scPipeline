@@ -21,7 +21,7 @@ with cluster information.
 }
 \examples{
 \donttest{
-#' library(Seurat)
+library(Seurat)
 # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
 counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
 
