@@ -1,2 +1,6 @@
 name	user	system	elapsed
-ConvertGeneIdentifiers	49.36	 2.05	61.00	
+ConvertGeneIdentifiers	47.73	 1.96	53.61	
+ReactomeData	58.86	 3.29	93.78	
+SeuratLowDim	40.67	 1.57	43.20	
+SeuratMarkers	1856.89	  72.08	3286.65	
+SeuratPreprocess	16.31	 1.22	17.52	

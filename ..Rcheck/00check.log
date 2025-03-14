@@ -10,7 +10,7 @@
 * checking for file './DESCRIPTION' ... OK
 * this is package 'scPipeline' version '0.2.0.0'
 * package encoding: UTF-8
-* checking CRAN incoming feasibility ... [15s] NOTE
+* checking CRAN incoming feasibility ... [13s] NOTE
 Maintainer: 'Viswanadham Sridhara <Sridhara.Omics@gmail.com>'
 
 New submission
@@ -27,10 +27,6 @@ The build time stamp is missing.
 Found the following hidden files and directories:
   .gitignore
   ..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ..Rcheck/vign_test/scPipeline/.git
   .Rproj.user
   .git
@@ -39,492 +35,20 @@ structure' in the 'Writing R Extensions' manual.
 
 CRAN-pack does not know about
   ..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
-  ..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ..Rcheck/vign_test/scPipeline/.git
   .git
 * checking for portable file names ... NOTE
 Found the following non-portable file paths:
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/03/035825d0ec2280d940577b57131bd0d63657b0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/688272831d9a18791e81da60ef8bd5723e6bbd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/90f77fbaf73a6a07d0d9228dcaa9f687ac63e2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/d0cd9e6a2d3a6a79267e8f484f607a55229259
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/06/47d8b09c96f71783ba234e4a281bee91d51a59
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/07/259119d3c26f03eefdfd7b41cc7a280b3be7ef
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/0f/536a50cb42740315c23dfb3d1b4ae873ebc3d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/12/6eeffbe041cab33284772e3d9ee32eb6f9a121
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/13/74b6e040eaee3070f7cd02ab2cd9712a1a5eeb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14/472d1039979393f3a170f3713183f03665a81f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14/6f8f08a5792a56f23851abbb6ce597e2067344
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/15/5089faebebbf8546437fc9f9e4facb70b1bdde
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/15/c087540e85f29e2024fcfe3c318a0a2d5101ed
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/16/6e4743751766072056195372f8b546df165bb0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/16/fb359a69907e7f4af979f03efeeaa5554bd8c6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/54848fd17d777b7874597ee93d4ebacb76db44
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/619c2d2c1ef690ad2a6c43993a34d3d387245b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/b2ee9446834b056710e23a6d68027daff16e9c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1a/2556a0ee634f7bea6c76b0371c472199cc42d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1b/9be8eb6a573046d6f9a839419bbd9c81a3a14a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1d/5ae321f44a3f5ada908e2afd6fff3e47a92a03
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1d/dbb2db21f0d9c8888f779faea7df7ccad6b43d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1e/6b388e40dc9fa58934b5e750e9c13823ea3d58
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1f/e1cc4ca990a7052258f06dd63005352504dd2b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/21/bb3da8a32b3bd259048b8b56b0e7d1a7ad60d4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24/b6c7fd1e5645d53424affea8fc1ae255256368
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24/c5a06cff3dfcf99df8329f29d0dbc479d21b66
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/25/84475e66032be22e306c969d0ea16008c3be33
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/28/0e8405b4fd6990478dc703a15b84196bf3f1ca
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/2e/bf373b085e10709a13b4d875c50965558cbda5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/30/eb4e1136f7e02a1bc551ba696a836cbae44846
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/0d670e5d7ba25093a580f4c2ac41eac4091b5c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/271ff4957df6b37ad7c54c9f9ee707d3844052
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/ced970f4d5b2e1f20bfb15289085120cdac94c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/33/fecc0c020a3aefd74ea5323b5b269bbd4e631d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/34/40a4df00abe070c0a1411cace20f0377b8bb29
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/39/cf3b45071b54c7bf76a5c84ccff0a9d29dce91
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/39/ef96d44a8fce343d694bc9dafac831f29b989f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3a/2fbf36bef9f0c8e7e13be727de60eef5165abf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3b/1f92baa4e6bf3b0a8557f698c30f5f6b8857bb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3d/c2b6a32d43ca933894e919d60eaf4548eb2a33
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/43/c688dd79a491dc566be4e02c9ae9b9a01d49a6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/44/b8bf93b23c0ca2554de2f3ad8f36edb34cc354
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/48/0d0094becb5bbfe550ffe999672027d8b97289
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a/7a7cf3f89f41d3af2b3a6ccaca240afe20b614
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a/e7bb6b1462e6bcc5b99a8550ae63298c894fad
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b/9f2e2802104d7a3f965b3817107ecee8876f61
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b/cd2bde7e719e4cee5ecef73f1e71474e05a2fd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4c/8b8ba9188b3d5e974a53f4acac6e5af0b3fbdf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4c/a29e0d2a0f2a1e6ae1fd8865e888a897147033
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4d/227f3f5755d87f06786004f24f02618b351330
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/50/f30bbaf1bda0fdd968a616c6411faa92e5bf26
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/51/9413e899d658609a69fd602521b10ed4478e60
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/53/1fa01cda547ab24f587357ec08ee3e312ec94d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/56/f9ae7415c71e9e3100d96fe58bf464c5d94825
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/57/13e29d8b79eb99dd0d0813cc9bd30c65557c8d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/58/1712ca28097fe141eb56d979b146b7af453987
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/58/f9513b1a34e0680d679e8d546f1a9cbe1ac8f1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5a/add212824d34b13734f7a08450c0228b101cc0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5d/9efed8a403b4b9dc0efc77e1899a49aa1dcbbd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5d/f103a3d5ce23468badaec67f7a9dab7db5102b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5f/94d14a93ccf0c222fad4fdb987eee8a6c02c8c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/60/9bc2fc8b33367702fc2fc0a6cba26e7c12dadf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/cdc1416e4004315d2e67a1bfd0bd6bd76def51
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/e6c519727e0062be363338e9a6db5b0aaafb5d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/66/0666136c9d26b98a8a24e0fa921d6651b406ba
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/67/afc3ed6fbdc9af5fccbcaa79d47a11ac0c16fa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/67/fe494ef984d3a3cf006b1800cc03b6506b3270
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/68/d0326c9603be6b7faec70328f4b9a9926aeac2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a/60b73aabfec52b0349c8b0598dc821350d2ea2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a/eca09d8bd9fc85b1a8eb9c2d20c50531d4d249
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6f/d1abf4b4aecc46d46a8f01170c846b3af066aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/71/37ab100191d7478fa911a147c0bd64a3e73a3a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/71/9e2daee5650a57bcb631b2eb9a25382cb7208d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/76/5c7f38b3207bf16cb5ffc0516584abc2adb382
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/76/6aebc3f0b17171e7d7e8f80bcf99a95230f521
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/79/d6dd646a31730ff5d2aa4a5915562665d96309
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7c/df9faafff22dcdb5d85f195a93f5f2832e52a8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7d/9465ca6595e19bb064c24518093bf9366f1ee8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/80/4209a72822fd908507b6493dadcb5dfeb9958f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/83/e842e6f8d55a3250a0d098a65c5d5a4ee26a86
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/84/894f373e580a7979438e8f1aa36ad5b507875b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/85/bc6f6da5a0aa43db8047bb66a2d3d8c27dbbf4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/88/f824f4bb86f5440c34a5b78dc37f9b3f50dc17
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/89/8eacd1e8e582c8c5231b15fdbfe1c0136c013c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a/5a0a9cf4b1b653ae64e2ec31969b6e35ce19d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a/a2b0d5d810e0c103b4ae6bbd96f81a3ea5b374
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8c/47edf38385780977def6da114e0ca67604330d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8d/d3fcd0a9dd78e7df804a98fccdcb9b339eb712
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8d/ee7a0834ce4c2f097a1a005476e98b8788577a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8f/79a63e25fc6418b491e323a15a2a60790b8792
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/91/d217ab97a0cc2ce2a7163c0e9e32aa2f69e15d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/64bea2db6e50c11891cae4191467c76134b470
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/7d99ebc40523e977d5f4d2be91728bb2d4ce94
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/94/ed42e806a42cc472a5d58e2e85e16532834a17
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/95/9875b22b75865f3391b08854f77fc249072c0b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/96/29c81573404eda647f1a85e7e94b131ad86fb3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/96/3bc4f879b135b07b65ddc601a4e5b7c1a65f38
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9d/b45d90f4bf0d1d705915921968c3fb679cdfe9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f/07f9082a51067e57b4bbe459a8baaeee6c68c5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f/472d169937f5740bb33f6da4b59a96423ea1be
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a1/466497716d45aeabb1b96909c8312b61308c21
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a2/fa8c2bb805abada9153a19cc23f3520838a6e6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a3/4b98e4799f7bb72bc3e49d76264dd3dc32c6d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a7/69ded620e943649b4cdb2b4b6818779dc8c0d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a9/109653a214be9e9febb75ddc59956e9f0db9b9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a9/3244c7529771714695327540e4350508a7f8db
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad/0ec59b5c52b2af342e7b5f4d6b08e02f57c6c8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad/f8ca499d74406986b6120b421036632e466aa0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ae/2c974c53a9d8a1e20ff608885570f79cb6d876
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b0/90ee61a1b6fbddec9478ab28b20f3490ac0782
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b2/204ff7b30b4637c98aef133598fbcaea71c24a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b5/019eb3095ec533427433177cdee41725529db7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/2abf8853ad345e713c7409eb728b568b154fc5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/2bfab92ba0051eef20b2298f4dd063bd6cd929
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/ec129c4513cde30d824ac9776a6360382e7137
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/f5dea5c0b611eb9a6e0d26b6a8482baf8fe915
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b9/a914eb99d31959acf1074d6b72e3f5b017455f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/bb/791019ec09a6cec87bfde5ae7f93092f181868
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/bb/bd80b12c2053c6c7643ab4dc40f225b42d3d2f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c0/8caab26ceff2161720b2f7db9916c5752a7618
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c1/13f727b98296efdf84b06ca749f004a33c21df
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c1/66a00a52b68a103661a6f7f867967c8f8334e7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c3/feba60e18655efd3f7f45de72dd54a375014a6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c6/c8ea891c9e687bb3d8dbdf01eee6fe9d93e2b9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/1c9f3092421f6ed5519242208cf4c93d33c245
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/a2ea4e0d4cd755e8ae4127cf03620f4f05e3aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/e3c0ddf88da1a89bf792935948549c80acb2fd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c9/3c049cb2fdf37bf4796dc1a624b5bbc38b376d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c9/9c6ff466f5711c757676ae0ea1ea7fb9efcd9b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/cc/92746aa8d9b37b6060722389dbacc8f4436794
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d0/7cd69431d8ee4c00fb598d21534e0aa4e92ac2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d1/047084a333d30a5ad712ef42d20b8c35af973d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d3/35b72fd5bbbd6a41be04e3ff019a7e298ccadc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d3/3f716a453b7b0e0a2da4e643e37136d98ca56e
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d4/a9860c9ed737ae53b60308c4bf9606c06cb9cb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d7/db6dd95ebe904813355f80aa956924f317a062
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d9/1bd1221872f583f70a408262f9e6650938a259
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/da/2aae492983347259ced673d8d5dbb1f5adf9ad
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/d23a5164d5afebf87ca0b6ef7906b675c4d50d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/e315ed7e5bc22a5e55d910dd0fc9bdc43bb6c9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dd/303e3b1764daee999045b865bbdaa9c57d9ea6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df/756732f6843464d77639851c2574da29df5960
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df/bd6421d20290c15115c9ea539c2631d9ee4174
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e1/18540ebd91c3c582439e3bb90b58fce3111806
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e3/986140239ab8d28c002d57bed4da701b5d83e5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e5/2c321aaad4755b0db78d82b4fb3b9473a54ed5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e6/f1ada31d3952109093a3fbc2b391a75fb0d17b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/3794445c99413c9b43dfd1cb6502c3e9852c2b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/3d34fb2bec9aa10841ae8b514ff83790d82ee6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/7096d4d768be5fe111d3bbf275f03f9c6a3665
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ed/0ab6aa1955948e65ca894782fca54e2df0cc72
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ee/80e700710751d17aa11fa9adfa23feffdf0003
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ee/a85bf35e316e89d12e96f26f7c634fc7f52ca0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef/70a9ad93a847e97b9ff595b08c54bb11a274bc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef/d5dc6e282383b5c8b71130716db07c3b8a4e48
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f0/98e786030177247ca50302e604300b2dcb354f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f1/62818361c47bc4f70c48fa8cb3d9f479be522f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f5/5fccf4323a1ab5f3e0646c3f08588834b73f7c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f6/a424e2cece88997a9934f1e647c6b83c14be7a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f7/6ec3b8b967f320c83d7f0f403437d25f740566
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f7/e80750c5058e395c2f865c1f72206b7846974b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f9/3878b611d157c7e3da2a7f30be3c4a8a04fd42
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f9/b29ffb1a9a6af32d05bca29112f82aac853245
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fa/075f38a48b4d822fe6080749656889785a80aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fa/f8ef5653efb713698908db1694c6c6ff119f62
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fd/529bb0b61931027b992234004be148b78011e4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/96b4ba0fab59818fe4fbea23530d5f07ef293c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/ac3b874ccb6fe4a173cc7346bb5e08493d33d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/d70ba9e7f8d971706b7c2f7479a5e49876809b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/03/035825d0ec2280d940577b57131bd0d63657b0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/688272831d9a18791e81da60ef8bd5723e6bbd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/90f77fbaf73a6a07d0d9228dcaa9f687ac63e2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05/d0cd9e6a2d3a6a79267e8f484f607a55229259
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/06/47d8b09c96f71783ba234e4a281bee91d51a59
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/07/259119d3c26f03eefdfd7b41cc7a280b3be7ef
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/0f/536a50cb42740315c23dfb3d1b4ae873ebc3d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/12/6eeffbe041cab33284772e3d9ee32eb6f9a121
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/13/74b6e040eaee3070f7cd02ab2cd9712a1a5eeb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14/472d1039979393f3a170f3713183f03665a81f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14/6f8f08a5792a56f23851abbb6ce597e2067344
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/15/5089faebebbf8546437fc9f9e4facb70b1bdde
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/15/c087540e85f29e2024fcfe3c318a0a2d5101ed
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/16/6e4743751766072056195372f8b546df165bb0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/16/fb359a69907e7f4af979f03efeeaa5554bd8c6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/54848fd17d777b7874597ee93d4ebacb76db44
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/619c2d2c1ef690ad2a6c43993a34d3d387245b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18/b2ee9446834b056710e23a6d68027daff16e9c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1a/2556a0ee634f7bea6c76b0371c472199cc42d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1b/9be8eb6a573046d6f9a839419bbd9c81a3a14a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1d/5ae321f44a3f5ada908e2afd6fff3e47a92a03
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1d/dbb2db21f0d9c8888f779faea7df7ccad6b43d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1e/6b388e40dc9fa58934b5e750e9c13823ea3d58
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1f/e1cc4ca990a7052258f06dd63005352504dd2b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/21/bb3da8a32b3bd259048b8b56b0e7d1a7ad60d4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24/b6c7fd1e5645d53424affea8fc1ae255256368
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24/c5a06cff3dfcf99df8329f29d0dbc479d21b66
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/25/84475e66032be22e306c969d0ea16008c3be33
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/28/0e8405b4fd6990478dc703a15b84196bf3f1ca
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/2e/bf373b085e10709a13b4d875c50965558cbda5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/30/eb4e1136f7e02a1bc551ba696a836cbae44846
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/0d670e5d7ba25093a580f4c2ac41eac4091b5c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/271ff4957df6b37ad7c54c9f9ee707d3844052
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31/ced970f4d5b2e1f20bfb15289085120cdac94c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/33/fecc0c020a3aefd74ea5323b5b269bbd4e631d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/34/40a4df00abe070c0a1411cace20f0377b8bb29
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/39/cf3b45071b54c7bf76a5c84ccff0a9d29dce91
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/39/ef96d44a8fce343d694bc9dafac831f29b989f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3a/2fbf36bef9f0c8e7e13be727de60eef5165abf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3b/1f92baa4e6bf3b0a8557f698c30f5f6b8857bb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3d/c2b6a32d43ca933894e919d60eaf4548eb2a33
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/43/c688dd79a491dc566be4e02c9ae9b9a01d49a6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/44/b8bf93b23c0ca2554de2f3ad8f36edb34cc354
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/48/0d0094becb5bbfe550ffe999672027d8b97289
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a/7a7cf3f89f41d3af2b3a6ccaca240afe20b614
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a/e7bb6b1462e6bcc5b99a8550ae63298c894fad
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b/9f2e2802104d7a3f965b3817107ecee8876f61
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b/cd2bde7e719e4cee5ecef73f1e71474e05a2fd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4c/8b8ba9188b3d5e974a53f4acac6e5af0b3fbdf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4c/a29e0d2a0f2a1e6ae1fd8865e888a897147033
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4d/227f3f5755d87f06786004f24f02618b351330
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/50/f30bbaf1bda0fdd968a616c6411faa92e5bf26
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/51/9413e899d658609a69fd602521b10ed4478e60
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/53/1fa01cda547ab24f587357ec08ee3e312ec94d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/56/f9ae7415c71e9e3100d96fe58bf464c5d94825
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/57/13e29d8b79eb99dd0d0813cc9bd30c65557c8d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/58/1712ca28097fe141eb56d979b146b7af453987
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/58/f9513b1a34e0680d679e8d546f1a9cbe1ac8f1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5a/add212824d34b13734f7a08450c0228b101cc0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5d/9efed8a403b4b9dc0efc77e1899a49aa1dcbbd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5d/f103a3d5ce23468badaec67f7a9dab7db5102b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5f/94d14a93ccf0c222fad4fdb987eee8a6c02c8c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/60/9bc2fc8b33367702fc2fc0a6cba26e7c12dadf
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/cdc1416e4004315d2e67a1bfd0bd6bd76def51
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65/e6c519727e0062be363338e9a6db5b0aaafb5d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/66/0666136c9d26b98a8a24e0fa921d6651b406ba
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/67/afc3ed6fbdc9af5fccbcaa79d47a11ac0c16fa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/67/fe494ef984d3a3cf006b1800cc03b6506b3270
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/68/d0326c9603be6b7faec70328f4b9a9926aeac2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a/60b73aabfec52b0349c8b0598dc821350d2ea2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a/eca09d8bd9fc85b1a8eb9c2d20c50531d4d249
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6f/d1abf4b4aecc46d46a8f01170c846b3af066aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/71/37ab100191d7478fa911a147c0bd64a3e73a3a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/71/9e2daee5650a57bcb631b2eb9a25382cb7208d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/76/5c7f38b3207bf16cb5ffc0516584abc2adb382
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/76/6aebc3f0b17171e7d7e8f80bcf99a95230f521
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/79/d6dd646a31730ff5d2aa4a5915562665d96309
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7c/df9faafff22dcdb5d85f195a93f5f2832e52a8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7d/9465ca6595e19bb064c24518093bf9366f1ee8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/80/4209a72822fd908507b6493dadcb5dfeb9958f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/83/e842e6f8d55a3250a0d098a65c5d5a4ee26a86
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/84/894f373e580a7979438e8f1aa36ad5b507875b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/85/bc6f6da5a0aa43db8047bb66a2d3d8c27dbbf4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/88/f824f4bb86f5440c34a5b78dc37f9b3f50dc17
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/89/8eacd1e8e582c8c5231b15fdbfe1c0136c013c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a/5a0a9cf4b1b653ae64e2ec31969b6e35ce19d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a/a2b0d5d810e0c103b4ae6bbd96f81a3ea5b374
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8c/47edf38385780977def6da114e0ca67604330d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8d/d3fcd0a9dd78e7df804a98fccdcb9b339eb712
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8d/ee7a0834ce4c2f097a1a005476e98b8788577a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8f/79a63e25fc6418b491e323a15a2a60790b8792
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/91/d217ab97a0cc2ce2a7163c0e9e32aa2f69e15d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/64bea2db6e50c11891cae4191467c76134b470
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93/7d99ebc40523e977d5f4d2be91728bb2d4ce94
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/94/ed42e806a42cc472a5d58e2e85e16532834a17
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/95/9875b22b75865f3391b08854f77fc249072c0b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/96/29c81573404eda647f1a85e7e94b131ad86fb3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/96/3bc4f879b135b07b65ddc601a4e5b7c1a65f38
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9d/b45d90f4bf0d1d705915921968c3fb679cdfe9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f/07f9082a51067e57b4bbe459a8baaeee6c68c5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f/472d169937f5740bb33f6da4b59a96423ea1be
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a1/466497716d45aeabb1b96909c8312b61308c21
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a2/fa8c2bb805abada9153a19cc23f3520838a6e6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a3/4b98e4799f7bb72bc3e49d76264dd3dc32c6d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a7/69ded620e943649b4cdb2b4b6818779dc8c0d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a9/109653a214be9e9febb75ddc59956e9f0db9b9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a9/3244c7529771714695327540e4350508a7f8db
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad/0ec59b5c52b2af342e7b5f4d6b08e02f57c6c8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad/f8ca499d74406986b6120b421036632e466aa0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ae/2c974c53a9d8a1e20ff608885570f79cb6d876
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b0/90ee61a1b6fbddec9478ab28b20f3490ac0782
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b2/204ff7b30b4637c98aef133598fbcaea71c24a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b5/019eb3095ec533427433177cdee41725529db7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/2abf8853ad345e713c7409eb728b568b154fc5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/2bfab92ba0051eef20b2298f4dd063bd6cd929
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/ec129c4513cde30d824ac9776a6360382e7137
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6/f5dea5c0b611eb9a6e0d26b6a8482baf8fe915
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b9/a914eb99d31959acf1074d6b72e3f5b017455f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/bb/791019ec09a6cec87bfde5ae7f93092f181868
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/bb/bd80b12c2053c6c7643ab4dc40f225b42d3d2f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c0/8caab26ceff2161720b2f7db9916c5752a7618
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c1/13f727b98296efdf84b06ca749f004a33c21df
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c1/66a00a52b68a103661a6f7f867967c8f8334e7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c3/feba60e18655efd3f7f45de72dd54a375014a6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c6/c8ea891c9e687bb3d8dbdf01eee6fe9d93e2b9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/1c9f3092421f6ed5519242208cf4c93d33c245
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/a2ea4e0d4cd755e8ae4127cf03620f4f05e3aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8/e3c0ddf88da1a89bf792935948549c80acb2fd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c9/3c049cb2fdf37bf4796dc1a624b5bbc38b376d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c9/9c6ff466f5711c757676ae0ea1ea7fb9efcd9b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/cc/92746aa8d9b37b6060722389dbacc8f4436794
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d0/7cd69431d8ee4c00fb598d21534e0aa4e92ac2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d1/047084a333d30a5ad712ef42d20b8c35af973d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d3/35b72fd5bbbd6a41be04e3ff019a7e298ccadc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d3/3f716a453b7b0e0a2da4e643e37136d98ca56e
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d4/a9860c9ed737ae53b60308c4bf9606c06cb9cb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d7/db6dd95ebe904813355f80aa956924f317a062
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d9/1bd1221872f583f70a408262f9e6650938a259
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/da/2aae492983347259ced673d8d5dbb1f5adf9ad
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/d23a5164d5afebf87ca0b6ef7906b675c4d50d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc/e315ed7e5bc22a5e55d910dd0fc9bdc43bb6c9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dd/303e3b1764daee999045b865bbdaa9c57d9ea6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df/756732f6843464d77639851c2574da29df5960
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df/bd6421d20290c15115c9ea539c2631d9ee4174
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e1/18540ebd91c3c582439e3bb90b58fce3111806
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e3/986140239ab8d28c002d57bed4da701b5d83e5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e5/2c321aaad4755b0db78d82b4fb3b9473a54ed5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e6/f1ada31d3952109093a3fbc2b391a75fb0d17b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/3794445c99413c9b43dfd1cb6502c3e9852c2b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/3d34fb2bec9aa10841ae8b514ff83790d82ee6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec/7096d4d768be5fe111d3bbf275f03f9c6a3665
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ed/0ab6aa1955948e65ca894782fca54e2df0cc72
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ee/80e700710751d17aa11fa9adfa23feffdf0003
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ee/a85bf35e316e89d12e96f26f7c634fc7f52ca0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef/70a9ad93a847e97b9ff595b08c54bb11a274bc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef/d5dc6e282383b5c8b71130716db07c3b8a4e48
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f0/98e786030177247ca50302e604300b2dcb354f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f1/62818361c47bc4f70c48fa8cb3d9f479be522f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f5/5fccf4323a1ab5f3e0646c3f08588834b73f7c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f6/a424e2cece88997a9934f1e647c6b83c14be7a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f7/6ec3b8b967f320c83d7f0f403437d25f740566
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f7/e80750c5058e395c2f865c1f72206b7846974b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f9/3878b611d157c7e3da2a7f30be3c4a8a04fd42
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f9/b29ffb1a9a6af32d05bca29112f82aac853245
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fa/075f38a48b4d822fe6080749656889785a80aa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fa/f8ef5653efb713698908db1694c6c6ff119f62
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fd/529bb0b61931027b992234004be148b78011e4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/96b4ba0fab59818fe4fbea23530d5f07ef293c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/ac3b874ccb6fe4a173cc7346bb5e08493d33d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff/d70ba9e7f8d971706b7c2f7479a5e49876809b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.idx
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.pack
   scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack/pack-b6e7570f87940e61bfd48acf64dcdd12f2edd3ef.rev
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/03
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/05
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/06
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/07
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/0f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/12
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/13
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/14
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/15
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/16
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/18
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1e
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/1f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/21
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/24
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/25
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/28
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/2e
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/30
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/31
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/33
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/34
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/39
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/3d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/43
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/44
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/48
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4b
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/4d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/50
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/51
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/53
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/56
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/57
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/58
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/5f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/60
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/65
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/66
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/67
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/68
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/6f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/71
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/76
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/79
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/7d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/80
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/83
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/84
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/85
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/88
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/89
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8a
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8c
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/8f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/91
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/93
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/94
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/95
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/96
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9d
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/9f
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/a9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ad
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ae
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b2
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/b9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/bb
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c8
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/c9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/cc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d4
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/d9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/da
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dc
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/dd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/df
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e3
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/e6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ec
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ed
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ee
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ef
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f0
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f1
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f5
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f6
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f7
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/f9
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fa
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/fd
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/ff
-  scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git/objects/pack
 
 Tarballs are only required to store paths of up to 100 bytes and cannot
 store those of more than 256 bytes, with restrictions including to 100
 bytes for the final component.
 See section 'Package structure' in the 'Writing R Extensions' manual.
 * checking serialization versions ... OK
-* checking whether package 'scPipeline' can be installed ... [79s] OK
+* checking whether package 'scPipeline' can be installed ... [38s] OK
 * checking installed package size ... NOTE
   installed size is 16.8Mb
   sub-directories of 1Mb or more:
@@ -539,31 +63,27 @@ Non-standard files/directories found at top level:
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... WARNING
-Found the following directories with names of check directories:
+Found the following directory with the name of a check directory:
   ./..Rcheck
-  ./..Rcheck/vign_test/scPipeline/..Rcheck
-  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck
 Most likely, these were included erroneously.
 Found the following directories with names of version control directories:
-  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
-  ./..Rcheck/vign_test/scPipeline/..Rcheck/vign_test/scPipeline/.git
   ./..Rcheck/vign_test/scPipeline/.git
   ./.git
 These should not be in a package tarball.
 * checking code files for non-ASCII characters ... OK
 * checking R files for syntax errors ... OK
-* checking whether the package can be loaded ... [22s] OK
-* checking whether the package can be loaded with stated dependencies ... [21s] OK
-* checking whether the package can be unloaded cleanly ... [21s] OK
-* checking whether the namespace can be loaded with stated dependencies ... [20s] OK
-* checking whether the namespace can be unloaded cleanly ... [22s] OK
-* checking loading without being on the library search path ... [22s] OK
+* checking whether the package can be loaded ... [11s] OK
+* checking whether the package can be loaded with stated dependencies ... [11s] OK
+* checking whether the package can be unloaded cleanly ... [11s] OK
+* checking whether the namespace can be loaded with stated dependencies ... [10s] OK
+* checking whether the namespace can be unloaded cleanly ... [11s] OK
+* checking loading without being on the library search path ... [12s] OK
 * checking use of S3 registration ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... [99s] OK
+* checking R code for possible problems ... [50s] OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -576,24 +96,8 @@ These should not be in a package tarball.
 * checking files in 'vignettes' ... WARNING
 Files in the 'vignettes' directory but no files in 'inst/doc':
   'Seurat_processing.Rmd' 'Seurat_processing.html'
-* checking examples ... [26s] OK
-* checking examples with --run-donttest ... [81s] ERROR
-Running examples in 'scPipeline-Ex.R' failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: ReactomeData
-> ### Title: Reactome Data Analysis for Seurat Object
-> ### Aliases: ReactomeData
-> 
-> ### ** Examples
-> 
-> ## No test: 
-> # Read 10X counts data from matrix.mtx, barcodes.tsv and genes.tsv
-> counts <- Read10X(data.dir = "../inst/extdata", gene.column = 1)
-Error in Read10X(data.dir = "../inst/extdata", gene.column = 1) : 
-  could not find function "Read10X"
-Execution halted
+* checking examples ... [15s] OK
+* checking examples with --run-donttest ... [59m] OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes ... WARNING
 Directory 'inst/doc' does not exist.
@@ -605,4 +109,4 @@ Package vignette without corresponding single PDF/HTML:
 * checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK
 * DONE
-Status: 1 ERROR, 3 WARNINGs, 6 NOTEs
+Status: 3 WARNINGs, 6 NOTEs
