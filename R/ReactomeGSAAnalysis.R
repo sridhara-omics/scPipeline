@@ -11,6 +11,9 @@
 #' @export
 #' @importFrom ReactomeGSA analyse_sc_clusters pathways
 ReactomeData <- function(lowdim_seurat_object) {
+  if (!requireNamespace("ReactomeGSA", quietly = TRUE)) {
+    stop("Package 'ReactomeGSA' is required for this function. Install it via Bioconductor.")
+  }
   # Step 1: Perform GSVA pathway analysis
   gsva_result <- ReactomeGSA::analyse_sc_clusters(lowdim_seurat_object)
 

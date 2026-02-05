@@ -55,6 +55,9 @@ SeuratPreprocess <- function(counts_data, meta.data = NULL, batch_column = NULL,
     sce_list <- lapply(batches, Seurat::as.SingleCellExperiment)
 
     # Perform batch correction using fastMNN
+    if (!requireNamespace("batchelor", quietly = TRUE)) {
+      stop("Package 'batchelor' is required for this function. Install it via Bioconductor.")
+    }
     corrected <- batchelor::fastMNN(sce_list)
 
     # Convert back to Seurat object

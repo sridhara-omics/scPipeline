@@ -14,6 +14,14 @@
 #' @param assay The assay in the Seurat object to use for annotation. Default is "RNA".
 #' @return The Seurat object with cell annotations added to the metadata.
 AnnotateCellsWithSingleR <- function(seurat_object, reference_data = NULL, assay = "RNA") {
+  if (!requireNamespace("SingleR", quietly = TRUE)) {
+    stop("Package 'SingleR' is required for this function. Install via Bioconductor.")
+  }
+  
+  if (!requireNamespace("celldex", quietly = TRUE)) {
+    stop("Package 'celldex' is required for this function. Install it via Bioconductor.")
+  }
+  
   # Step 1: Load default reference data from Celldex if not provided
   if (is.null(reference_data)) {
     reference_data <- celldex::HumanPrimaryCellAtlasData()
