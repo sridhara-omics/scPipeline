@@ -1,6 +1,6 @@
 # scPipeline
 
-**Single-cell RNA-seq analysis made easy, with workflows for cell annotation, differential expression, marker discovery, and pathway analysis.**
+**A reproducible single-cell RNA-seq analysis toolkit for cell annotation, differential expression, marker discovery, and pathway analysis.**
 
 [CRAN](https://cran.r-project.org/web/packages/scPipeline/index.html) [R](https://www.r-project.org/) [License: MIT]
 
