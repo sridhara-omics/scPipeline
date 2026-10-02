@@ -54,3 +54,124 @@ Markers_list <- SeuratMarkers(low_dim_object)
 ```{r ReactomeData function}
 Reactome_pathways_object <- ReactomeData(low_dim_object)
 ```
+
+## Installation
+
+scPipeline is available on CRAN:
+
+```r
+install.packages("scPipeline")
+```
+
+Several dependencies come from Bioconductor. If installation reports missing packages, install them first:
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install(c("batchelor", "SingleR", "celldex", "SummarizedExperiment", "biomaRt", "ReactomeGSA"))
+```
+
+Alternative sources:
+
+```r
+# Development version from GitHub
+install.packages("remotes")
+remotes::install_github("sridhara-omics/scPipeline")
+
+# R-universe build
+install.packages("scPipeline",
+                 repos = c("https://sridhara-omics.r-universe.dev", "https://cloud.r-project.org"))
+```
+
+**Requirements:** R . Main dependencies: Seurat, batchelor, SingleR, celldex, ReactomeGSA,
+SummarizedExperiment, biomaRt, dplyr, magrittr and rlang.
+
+## Function reference at a glance
+
+| Function | What it does |
+|---|---|
+| `SeuratPreprocess()` | Preprocesses a counts matrix into a normalized, scaled Seurat object; optional batch correction with `batchelor::fastMNN` using a batch vector |
+| `SeuratLowDim()` | Builds the low-dimensional object from the scaled object: clusters plus PCA, t-SNE and UMAP embeddings |
+| `SeuratMarkers()` | Finds markers per cluster and returns the full list plus a thresholded list of significant markers (minimum percent of cells) |
+| `ReactomeData()` | Runs Reactome pathway analysis (ReactomeGSA) on a Seurat object that has cluster information |
+| `AnnotateCellsWithSingleR()` | Annotates cells with SingleR using a celldex reference; annotations are added to the Seurat metadata |
+| `TransferAnnotations()` | Transfers annotations from a labelled dataset to Seurat clusters |
+| `ConvertGeneIdentifiers()` | Converts gene identifiers in a Seurat object (for example accessions to gene symbols) |
+
+Use `?SeuratPreprocess` (or any function name) for argument details.
+
+## Workflow overview
+
+```mermaid
+flowchart LR
+  A[Counts matrix] --> B[SeuratPreprocess<br/>optional fastMNN batch correction]
+  B --> C[SeuratLowDim<br/>clusters, PCA, t-SNE, UMAP]
+  C --> D[SeuratMarkers<br/>markers and significant markers]
+  C --> E[ReactomeData<br/>Reactome pathways]
+  C -.-> F[AnnotateCellsWithSingleR<br/>TransferAnnotations]
+```
+
+`ConvertGeneIdentifiers()` is a supporting step for working with different gene identifier types.
+
+## What you get back
+
+| Step | Result |
+|---|---|
+| `SeuratPreprocess()` | A scaled Seurat object restricted to highly variable genes |
+| `SeuratLowDim()` | A Seurat object with cluster assignments and 2-D embeddings for plotting |
+| `SeuratMarkers()` | A list with all markers and the significant markers |
+| `ReactomeData()` | A ReactomeGSA result object with pathways for the expressed genes in each cluster |
+| `AnnotateCellsWithSingleR()` | The Seurat object with predicted cell types in the metadata |
+
+## Example data
+
+The usage examples above read `data/MCA_merged_mat.rds` and `data/MCA_All-batch-removed-assignments.csv` 
+
+## Help and documentation
+
+- Package page on CRAN: <https://CRAN.R-project.org/package=scPipeline>
+- Function help: `help(package = "scPipeline")`
+- Vignettes (if installed): `browseVignettes("scPipeline")`
+- Release notes: see [`NEWS.md`](NEWS.md)
+
+## Reproducibility tips
+
+- Set a seed (`set.seed(...)`) before clustering and embedding steps (UMAP and t-SNE are stochastic).
+- Record `sessionInfo()` with your results so package versions are traceable.
+- Note the celldex reference used for annotation, since predicted labels depend on it.
+
+## Citation
+
+If you use scPipeline, please cite the package and the tools it builds on.
+
+```r
+citation("scPipeline")
+```
+
+```bibtex
+@Manual{sridhara_scpipeline,
+  title  = {scPipeline: A Wrapper for 'Seurat' and Related R Packages for End-to-End Single Cell Analysis},
+  author = {Viswanadham Sridhara},
+  year   = {2025},
+  note   = {R package version 0.2.0.0},
+  doi    = {10.32614/CRAN.package.scPipeline},
+  url    = {https://CRAN.R-project.org/package=scPipeline}
+}
+```
+
+Key methods used by the package:
+
+- Hao, Y. et al. *Integrated analysis of multimodal single-cell data.* Cell (2021). (Seurat)
+- Haghverdi, L. et al. *Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors.*
+  Nature Biotechnology (2018). (fastMNN)
+- Aran, D. et al. *Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage.*
+  Nature Immunology (2019). (SingleR)
+- Griss, J. et al. *ReactomeGSA - Efficient multi-omics comparative pathway analysis.* Molecular Systems Biology (2020).
+
+## License
+
+Released under the MIT License. See [`LICENSE`](LICENSE).
+
+## Contributing and issues
+
+Bug reports and suggestions are welcome via [GitHub Issues](https://github.com/sridhara-omics/scPipeline/issues). Please include your
+`sessionInfo()` output and a minimal reproducible example.
