@@ -1,3 +1,10 @@
+# scPipeline
+
+**Single-cell RNA-seq analysis made easy, with workflows for cell annotation, differential expression, marker discovery, and pathway analysis.**
+
+[CRAN](https://cran.r-project.org/web/packages/scPipeline/index.html) [R](https://www.r-project.org/) [License: MIT]
+
+## Intro  
 scPipeline, a R package that uses Seurat, ReactomeGSA, fastMNN and singleR to enable the user to build an end-to-end single cell pipeline:
 
 Seurat: A comprehensive toolkit for single-cell RNA-seq data analysis, offering functionalities from data preprocessing to visualization.
